@@ -1,0 +1,37 @@
+#include <stdio.h>
+
+void xor_transform(long* value_list, int list_length, long xor_value, long* result_list) {
+    for (int i = 0; i < list_length; i++) {
+        result_list[i] = value_list[i] ^ xor_value;
+    }
+}
+
+void convert_to_ascii(long* hex_values, int list_length, char* result_ascii) {
+    for (int i = 0; i < list_length; i++) {
+        result_ascii[i] = (char)hex_values[i];
+    }
+    result_ascii[list_length] = '\0';
+}
+
+int main() {
+    long hex_values[] = {
+        -0x37, 0xd9, 0xcb, 0xdd, 0xc9, 0xde, 0xcc, 0xd1, 0x9a, 0xc4, 0xcf, 0xf5, 0xd9, 0xc2, 0xcf, 0xcf, 
+        0xfa, 0xf5, 0x9b, 0xdd, 0xc5, 0xf5, 0xd9, 0xc2, 0xcf, 0xfd, 0xda, 0xf5, 0x98, 0xc2, 0xd8, 0xcf, 
+        0xcf, 0xf5, 0x9f, 0xc2, 0xcf, 0xcf, 0xc1, 0xd9, 0xf5, 0xf5, 0xf5, 0xf5, 0xf5, 0xd0, 0xf5, 0xf5, 
+        0xf5, 0xd0, 0xd0, 0xd0, 0xf5, 0xf5, 0xf5, 0xf5, 0xf5, 0xd0, 0xd0, 0xd0, 0xd0, 0xd0, 0xd0, 0xf5, 
+        0xf5, 0xf5, 0xf5, 0xd2, 0xc5, 0xd8, 0xd7
+    };
+    
+    int list_length = sizeof(hex_values) / sizeof(hex_values[0]);
+    long xor_value = 0xffffffaa;
+    long result_list[list_length];
+    char result_ascii[list_length + 1];
+    
+    xor_transform(hex_values, list_length, xor_value, result_list);
+    convert_to_ascii(result_list, list_length, result_ascii);
+    
+    printf("%s\n", result_ascii);
+    
+    return 0;
+}
+//csawctf{0ne_sheeP_1wo_sheWp_2hree_5heeks_____z___zzz_____zzzzzz____xor}
