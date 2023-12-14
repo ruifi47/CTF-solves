@@ -1,0 +1,12 @@
+1. Fix file header and footer bytes using hex editor
+header - FF D8 FF ..
+footer - .. FF D9
+new file -> fixed_layers.jpg
+
+2. Run python3 brute.py (or stegseek) to find passphrase and get secret_message.txt
+passphrase -> layers
+GFXGU{LtIvh_zIv_oRpv_lmrOmh}
+
+3. Use cyberchef to decode Atbash ciphered flag found in secret_message.txt
+https://gchq.github.io/CyberChef/#recipe=Atbash_Cipher()&input=R0ZYR1V7THRJdmhfekl2X29ScHZfbG1yT21ofQ
+TUCTF{OgRes_aRe_lIke_oniLns}

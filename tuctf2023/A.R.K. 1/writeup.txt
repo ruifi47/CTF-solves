@@ -1,0 +1,4 @@
+% cat rockyou.txt | grep -i sheep | tee sheep_rockyou.txt
+% ssh2john sheep > ssh_sheep.hash
+% john --wordlist=sheep_rockyou.txt ssh_sheep.hash
+TUCTF{baabaablacksheep}

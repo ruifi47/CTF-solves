@@ -1,0 +1,2 @@
+% exiftool TCP1P-CTF.pdf | grep -i creator | awk '{print $3}' | base64 -d 
+In this question, the flag has been divided into 3 parts. You have found the first part of the flag!! TCP1P{D01n9_F023n51C5
