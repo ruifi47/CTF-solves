@@ -1,0 +1,202 @@
+#python3 -c "__import__(\"pickletools\").dis(open(\"./out.pickle\", \"rb\").read(),annotate=30)"|grep 1337 -B 1|head -n 200|tee save_useful.txt
+
+  451: S    STRING     ''                          Push a Python string object.
+  455: p    PUT        1337000                     Store the stack top into the memo.  The stack is not popped.
+--
+  465: S    STRING     'e'                         Push a Python string object.
+  470: p    PUT        133720                      Store the stack top into the memo.  The stack is not popped.
+--
+  669: S    STRING     'i'                         Push a Python string object.
+  674: p    PUT        133708                      Store the stack top into the memo.  The stack is not popped.
+--
+  808: S    STRING     'L'                         Push a Python string object.
+  813: p    PUT        133763                      Store the stack top into the memo.  The stack is not popped.
+--
+  956: S    STRING     'c'                         Push a Python string object.
+  961: p    PUT        133701                      Store the stack top into the memo.  The stack is not popped.
+--
+ 1177: S    STRING     'e'                          Push a Python string object.
+ 1182: p    PUT        133711                       Store the stack top into the memo.  The stack is not popped.
+--
+ 1256: S    STRING     '_'                          Push a Python string object.
+ 1261: p    PUT        133707                       Store the stack top into the memo.  The stack is not popped.
+--
+ 1496: S    STRING     '_'                          Push a Python string object.
+ 1501: p    PUT        133758                       Store the stack top into the memo.  The stack is not popped.
+--
+ 1681: S    STRING     'L'                         Push a Python string object.
+ 1686: p    PUT        133764                      Store the stack top into the memo.  The stack is not popped.
+--
+ 1994: S    STRING     'd'                          Push a Python string object.
+ 1999: p    PUT        133752                       Store the stack top into the memo.  The stack is not popped.
+--
+ 2098: S    STRING     'e'                          Push a Python string object.
+ 2103: p    PUT        133730                       Store the stack top into the memo.  The stack is not popped.
+--
+ 2564: S    STRING     'a'                          Push a Python string object.
+ 2569: p    PUT        133741                       Store the stack top into the memo.  The stack is not popped.
+--
+ 2669: S    STRING     'L'                          Push a Python string object.
+ 2674: p    PUT        133729                       Store the stack top into the memo.  The stack is not popped.
+--
+ 2792: S    STRING     'l'                          Push a Python string object.
+ 2797: p    PUT        133742                       Store the stack top into the memo.  The stack is not popped.
+--
+ 3073: S    STRING     'a'                       Push a Python string object.
+ 3078: p    PUT        133723                    Store the stack top into the memo.  The stack is not popped.
+--
+ 3165: S    STRING     'o'                        Push a Python string object.
+ 3170: p    PUT        133706                     Store the stack top into the memo.  The stack is not popped.
+--
+ 3701: S    STRING     '_'                          Push a Python string object.
+ 3706: p    PUT        133714                       Store the stack top into the memo.  The stack is not popped.
+--
+ 4059: S    STRING     'c'                          Push a Python string object.
+ 4064: p    PUT        133759                       Store the stack top into the memo.  The stack is not popped.
+--
+ 4218: S    STRING     'i'                          Push a Python string object.
+ 4223: p    PUT        133700                       Store the stack top into the memo.  The stack is not popped.
+--
+ 4563: S    STRING     't'                         Push a Python string object.
+ 4568: p    PUT        133713                      Store the stack top into the memo.  The stack is not popped.
+--
+ 4693: S    STRING     'D'                         Push a Python string object.
+ 4698: p    PUT        133726                      Store the stack top into the memo.  The stack is not popped.
+--
+ 4760: S    STRING     'f'                         Push a Python string object.
+ 4765: p    PUT        133703                      Store the stack top into the memo.  The stack is not popped.
+--
+ 5003: S    STRING     'e'                         Push a Python string object.
+ 5008: p    PUT        133755                      Store the stack top into the memo.  The stack is not popped.
+--
+ 5232: S    STRING     't'                          Push a Python string object.
+ 5237: p    PUT        133739                       Store the stack top into the memo.  The stack is not popped.
+--
+ 5435: S    STRING     'h'                          Push a Python string object.
+ 5440: p    PUT        133733                       Store the stack top into the memo.  The stack is not popped.
+--
+ 5512: S    STRING     'e'                          Push a Python string object.
+ 5517: p    PUT        133757                       Store the stack top into the memo.  The stack is not popped.
+--
+ 5672: S    STRING     '_'                         Push a Python string object.
+ 5677: p    PUT        133749                      Store the stack top into the memo.  The stack is not popped.
+--
+ 5814: S    STRING     'a'                       Push a Python string object.
+ 5819: p    PUT        133751                    Store the stack top into the memo.  The stack is not popped.
+--
+ 6161: S    STRING     's'                Push a Python string object.
+ 6166: p    PUT        133705             Store the stack top into the memo.  The stack is not popped.
+--
+ 6532: S    STRING     'h'                Push a Python string object.
+ 6537: p    PUT        133719             Store the stack top into the memo.  The stack is not popped.
+--
+ 6840: S    STRING     'D'                          Push a Python string object.
+ 6845: p    PUT        133761                       Store the stack top into the memo.  The stack is not popped.
+--
+ 7064: S    STRING     't'                         Push a Python string object.
+ 7069: p    PUT        133718                      Store the stack top into the memo.  The stack is not popped.
+--
+ 7147: S    STRING     'b'                          Push a Python string object.
+ 7152: p    PUT        133737                       Store the stack top into the memo.  The stack is not popped.
+--
+ 7297: S    STRING     'y'                     Push a Python string object.
+ 7302: p    PUT        133748                  Store the stack top into the memo.  The stack is not popped.
+--
+ 7354: S    STRING     '_'                         Push a Python string object.
+ 7359: p    PUT        133736                      Store the stack top into the memo.  The stack is not popped.
+--
+ 7509: S    STRING     'I'                        Push a Python string object.
+ 7514: p    PUT        133727                     Store the stack top into the memo.  The stack is not popped.
+--
+ 7582: S    STRING     '_'                        Push a Python string object.
+ 7587: p    PUT        133740                     Store the stack top into the memo.  The stack is not popped.
+--
+ 8038: S    STRING     'w'                         Push a Python string object.
+ 8043: p    PUT        133754                      Store the stack top into the memo.  The stack is not popped.
+--
+ 8287: S    STRING     't'                          Push a Python string object.
+ 8292: p    PUT        133745                       Store the stack top into the memo.  The stack is not popped.
+--
+ 8432: S    STRING     'c'                          Push a Python string object.
+ 8437: p    PUT        133722                       Store the stack top into the memo.  The stack is not popped.
+--
+ 8681: S    STRING     'a'                       Push a Python string object.
+ 8686: p    PUT        133760                    Store the stack top into the memo.  The stack is not popped.
+--
+ 8713: S    STRING     '_'                         Push a Python string object.
+ 8718: p    PUT        133744                      Store the stack top into the memo.  The stack is not popped.
+--
+ 8879: S    STRING     '{'                         Push a Python string object.
+ 8884: p    PUT        133704                      Store the stack top into the memo.  The stack is not popped.
+--
+ 9084: S    STRING     '_'                          Push a Python string object.
+ 9089: p    PUT        133725                       Store the stack top into the memo.  The stack is not popped.
+--
+ 9214: S    STRING     'u'                          Push a Python string object.
+ 9219: p    PUT        133738                       Store the stack top into the memo.  The stack is not popped.
+--
+ 9434: S    STRING     'a'                          Push a Python string object.
+ 9439: p    PUT        133765                       Store the stack top into the memo.  The stack is not popped.
+--
+ 9646: S    STRING     'p'                        Push a Python string object.
+ 9651: p    PUT        133735                     Store the stack top into the memo.  The stack is not popped.
+--
+ 9799: S    STRING     'o'                         Push a Python string object.
+ 9804: p    PUT        133716                      Store the stack top into the memo.  The stack is not popped.
+--
+ 9928: S    STRING     'r'                          Push a Python string object.
+ 9933: p    PUT        133756                       Store the stack top into the memo.  The stack is not popped.
+--
+10244: S    STRING     'L'                          Push a Python string object.
+10249: p    PUT        133728                       Store the stack top into the memo.  The stack is not popped.
+--
+10446: S    STRING     'I'                        Push a Python string object.
+10451: p    PUT        133762                     Store the stack top into the memo.  The stack is not popped.
+--
+10681: S    STRING     'r'                          Push a Python string object.
+10686: p    PUT        133724                       Store the stack top into the memo.  The stack is not popped.
+--
+10779: S    STRING     '_'                          Push a Python string object.
+10784: p    PUT        133717                       Store the stack top into the memo.  The stack is not popped.
+--
+10833: S    STRING     's'                          Push a Python string object.
+10838: p    PUT        133767                       Store the stack top into the memo.  The stack is not popped.
+--
+11123: S    STRING     '_'                          Push a Python string object.
+11128: p    PUT        133709                       Store the stack top into the memo.  The stack is not popped.
+--
+11221: S    STRING     'h'                          Push a Python string object.
+11226: p    PUT        133750                       Store the stack top into the memo.  The stack is not popped.
+--
+11345: S    STRING     'r'                          Push a Python string object.
+11350: p    PUT        133731                       Store the stack top into the memo.  The stack is not popped.
+--
+11704: S    STRING     't'                         Push a Python string object.
+11709: p    PUT        133702                      Store the stack top into the memo.  The stack is not popped.
+--
+11938: S    STRING     't'                         Push a Python string object.
+11943: p    PUT        133715                      Store the stack top into the memo.  The stack is not popped.
+--
+12335: S    STRING     'c'                         Push a Python string object.
+12340: p    PUT        133766                      Store the stack top into the memo.  The stack is not popped.
+--
+12408: S    STRING     'w'                         Push a Python string object.
+12413: p    PUT        133710                      Store the stack top into the memo.  The stack is not popped.
+--
+12603: S    STRING     '_'                          Push a Python string object.
+12608: p    PUT        133721                       Store the stack top into the memo.  The stack is not popped.
+--
+12706: S    STRING     '}'                    Push a Python string object.
+12711: p    PUT        133768                 Store the stack top into the memo.  The stack is not popped.
+--
+12914: S    STRING     'n'                 Push a Python string object.
+12919: p    PUT        133712              Store the stack top into the memo.  The stack is not popped.
+--
+13018: S    STRING     '_'                        Push a Python string object.
+13023: p    PUT        133753                     Store the stack top into the memo.  The stack is not popped.
+--
+13352: S    STRING     'i'                   Push a Python string object.
+13357: p    PUT        133734                Store the stack top into the memo.  The stack is not popped.
+--
+13369: 0    POP                              Discard the top stack item, shrinking the stack by one item.
+13370: (    MARK                             Push markobject onto the stack.

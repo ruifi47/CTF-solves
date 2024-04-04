@@ -1,0 +1,2 @@
+https://gchq.github.io/CyberChef/#recipe=ROT13(true,true,false,13)&input=dXBnc3tsYmhlcl9lcm5xbF9nYl9mZ2JjX2d1cl9uY2JwbnlsY2ZyfQ
+hctf{youre_ready_to_stop_the_apocalypse}

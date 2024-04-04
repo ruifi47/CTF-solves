@@ -1,0 +1,16 @@
+% ./thesecondhorseman
+And you are here, in the castle. You have defeated the first Horseman, but you know the Apocalypse. There are still 3 horsemen to defeat.
+While thinking about the next enemy, you reach the first floor. But what you find in front of you is a little, screeching door:
+it seems to have been closed for a long time
+You enter in the room. It is small, empty, with just an armchair in the middle and an old man looking lost.
+You know it is him, your next enemy, but it seems so weak. You try to taunt him to get a reaction, but he just stays silent.
+The lights turn on: You see a lot of writings on the wall.
+The key is there: and the man wants to know it.
+You say: What_future_do_you_w/sh_for_our_children?
+
+The man finally answers, but he only says:
+hctf{www.youtube.com/watch?v=hnBuaJDNagU}
+before returning silent... forever.
+
+You have a face full of tears. You have understood what's happening, and you can only say these words...
+'Presidente... Presidente...'

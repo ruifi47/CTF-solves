@@ -1,0 +1,4 @@
+$ procyon Bunker.jar | tee decompiled.java
+$ java -jar Bunker.jar
+USER ENTERED: 72945810
+flag{bunker_11_says_await_further_instruction}
