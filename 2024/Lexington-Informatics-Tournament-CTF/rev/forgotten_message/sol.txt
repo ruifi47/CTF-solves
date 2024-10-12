@@ -1,0 +1,2 @@
+$ strings forgotten-message | grep -i "LITCTF{"
+LITCTF{y0u_found_Me_3932cc3}

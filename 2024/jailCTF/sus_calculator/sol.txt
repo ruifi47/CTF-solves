@@ -1,0 +1,7 @@
+$ nc challs1.pyjail.club 5456
+SUS Calculator (Super Ultra Safe Calculator)
+I heard using eval for these calculator apps is bad, so I made sure to avoid it
+Good luck doing anything malicious here >:)
+
+> cat exec flag.txt
+jail{me_when_i_uhhh_escape}

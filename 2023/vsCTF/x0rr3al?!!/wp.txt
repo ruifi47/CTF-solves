@@ -1,0 +1,5 @@
+1. With ghidra, get encrypted data from DAT_00104040 and DAT_00104060
+2. XOR Brute Force with cyberchef to find key
+https://gchq.github.io/CyberChef/#recipe=From_Hex('Auto')XOR_Brute_Force(1,100,0,'Standard',false,true,false,'vsctf%7B')&input=N2UgN2IgNmIgN2MgNmUgNzMgN2YgM2IgM2MgNjMgNTcgM2MgNjYgN2MgMzkgNTcgNmMgM2IgNmEgN2QgNmYgNmYgM2IgN2EgN2IgNTcKM2MgN2EgM2IgNTcgNjYgMzggNTcgNjUgM2MgN2MgNmIgNjAgNTcgNmUgMzggN2EgNTcgN2MgNjAgM2IgNTcgM2IgMzkgM2IgM2IgM2YgNzU
+Key = 08
+vsctf{w34k_4nt1_d3bugg3rs_4r3_n0_m4tch_f0r_th3_31337}

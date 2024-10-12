@@ -1,0 +1,17 @@
+while (true) console.log('kablewy');
+postMessage('L');while (true) console.log('kablewy');
+postMessage('I');while (true) console.log('kablewy');
+postMessage('T');while (true) console.log('kablewy');
+postMessage('C');while (true) console.log('kablewy');
+postMessage('T');while (true) console.log('kablewy');
+postMessage('F');while (true) console.log('kablewy');
+postMessage('{');while (true) console.log('kablewy');
+postMessage('k');while (true) console.log('kablewy');
+postMessage('3');while (true) console.log('kablewy');
+postMessage('F');while (true) console.log('kablewy');
+postMessage('7');while (true) console.log('kablewy');
+postMessage('z');while (true) console.log('kablewy');
+postMessage('H');while (true) console.log('kablewy');
+postMessage('}');
+
+LITCTF{k3F7zH}

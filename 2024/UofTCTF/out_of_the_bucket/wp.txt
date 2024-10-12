@@ -1,0 +1,20 @@
+1. access https://storage.googleapis.com/out-of-the-bucket/
+<Contents>
+<Key>secret/</Key>
+<Generation>1703868492595821</Generation>
+<MetaGeneration>1</MetaGeneration>
+<LastModified>2023-12-29T16:48:12.634Z</LastModified>
+<ETag>"d41d8cd98f00b204e9800998ecf8427e"</ETag>
+<Size>0</Size>
+</Contents>
+<Contents>
+<Key>secret/dont_show</Key>
+<Generation>1703868647771911</Generation>
+<MetaGeneration>1</MetaGeneration>
+<LastModified>2023-12-29T16:50:47.809Z</LastModified>
+<ETag>"737eb19c7265186a2fab89b5c9757049"</ETag>
+<Size>29</Size>
+</Contents>
+
+2. wget https://storage.googleapis.com/out-of-the-bucket/secret/dont_show
+uoftctf{allUsers_is_not_safe}

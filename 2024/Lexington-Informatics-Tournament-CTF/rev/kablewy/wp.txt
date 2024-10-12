@@ -1,0 +1,7 @@
+# get js code from webpage
+$ cat index-DLdRi53f_beautified.js | grep -E "const [^ ]+ = \"" | tee to_decode.txt
+# remove everything till you only have base64 encoded strings and save it to to_decode.txt
+$ cat to_decode.txt | base64 -d | tee to_decode2.txt
+# remove everything till you only have base64 encoded strings again and save it to to_decode2.txt
+$ cat to_decode2.txt | base64 -d | tee flag.txt
+LITCTF{k3F7zH}

@@ -1,0 +1,4 @@
+1. open dpr.pcpang with wireshark, right click on the 1st packet -> Follow -> TCP Stream -> select Show data as Raw, to get the raw data from the captured TCP stream and save it to the file raw.data
+2. run python3 get_jpeg.py to get the jpeg images from the raw data 
+3. one of the jpeg images contains the flag:
+flag{knock_knock_open_up_its_the_fbi}

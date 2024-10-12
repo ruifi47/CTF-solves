@@ -1,2 +1,0 @@
-#get pdf with flag
-foremost -i babyhide.jpeg

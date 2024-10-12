@@ -1,0 +1,13 @@
+1. get flag pieces with strings
+% strings thefourhorsemen
+...
+upgs{lbhH
+er_ernqlH
+_gb_fgbcH
+_gur_ncbH
+pnylcfr}H
+...
+
+2. The flag 'upgs{lbher_ernql_gb_fgbc_gur_ncbpnylcfr}' was encrypted using ROT13. We can use cyberchef to decrypt it:
+https://gchq.github.io/CyberChef/#recipe=ROT13(true,true,false,13)&input=dXBnc3tsYmhlcl9lcm5xbF9nYl9mZ2JjX2d1cl9uY2JwbnlsY2ZyfQ
+hctf{youre_ready_to_stop_the_apocalypse}

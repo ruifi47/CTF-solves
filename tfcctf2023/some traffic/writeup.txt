@@ -1,5 +1,0 @@
-1. Open sus.pcapng in wirehark
-2. Apply the filter 'http'
-3. Extract the 3 images by selecting each individual packet which contains the PNGs data (HTTP POST requests to /upload packets) and going to the packet details pane -> MIME Multipart Media Encapsulation -> Encapsulated multipart part:  (image/png) -> Portable Network Graphics -> Export Packet Bytes (appears after right clicking in Portable Network Graphics) and saving each one to <SOMETHING>.png
-4. Run 'zsteg -a' on all of the extracted images
-#TFCCTF{H1dd3n_d4t4_1n_p1x3ls_i5n't_f4n_4nd_e4sy_to_f1nd!}

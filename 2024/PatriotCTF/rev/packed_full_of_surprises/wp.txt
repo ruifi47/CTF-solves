@@ -1,0 +1,6 @@
+1. Unpack the UPX packed binary named 'encrypt'. Use the tool https://github.com/upx/upx
+$ upx -d encrypt
+
+2. After opening the unpacked binary in ghidra, we known that it was encrypted using OpenSSL with AES in CFB mode. The key and IV are defined in the main function. Knowing the cipher, key and IV, we made a python script ('solve.py') to decrypt flag.txt.enc
+$ python3 solve.py
+PCTF{UPX_15_2_3A$y_t0_uNp4cK}

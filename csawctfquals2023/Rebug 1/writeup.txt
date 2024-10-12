@@ -1,6 +1,0 @@
-send any string with length = 12 like 'AAAAAAAAAAAA'
-
-% ./test.out 
-Enter the String: AAAAAAAAAAAA
-that's correct!
-csawctf{c20ad4d76fe97759aa27a0c99bff6710}

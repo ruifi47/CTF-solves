@@ -1,0 +1,4 @@
+$ ./easycrack 
+Please enter a key: sssssssssssH
+Nice key :) sssssssssssH
+flag{sssssssssssH}

